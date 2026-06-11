@@ -1,0 +1,118 @@
+# Jian
+For a day named stella.
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Happy Birthday Streelo 🥳</title>
+<style>
+  body {
+    background: #0a0a0a;
+    color: #ffb6e6;
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    text-align: center;
+    padding: 20px;
+    margin: 0;
+    overflow-x: hidden;
+  }
+  h1 {
+    font-size: 2.5em;
+    color: #ff69b4;
+    text-shadow: 0 0 10px #ff1493, 0 0 20px #ff1493;
+    animation: glow 2s ease-in-out infinite alternate;
+  }
+  @keyframes glow {
+    from { text-shadow: 0 0 10px #ff1493, 0 0 20px #ff1493; }
+    to { text-shadow: 0 0 20px #ffb6e6, 0 0 30px #ffb6e6; }
+  }
+  .note {
+    max-width: 700px;
+    margin: 30px auto;
+    background: #1a1a1a;
+    border: 2px solid #ff69b4;
+    border-radius: 20px;
+    padding: 25px;
+    line-height: 1.8;
+    font-size: 1.1em;
+    box-shadow: 0 0 20px rgba(255, 105, 180, 0.3);
+  }
+  .heart {
+    font-size: 1.5em;
+    animation: beat 1s infinite;
+    display: inline-block;
+  }
+  @keyframes beat {
+    0%, 100% { transform: scale(1); }
+    50% { transform: scale(1.2); }
+  }
+  .confetti {
+    position: fixed;
+    width: 10px;
+    height: 10px;
+    background: #ff69b4;
+    top: -10px;
+    animation: fall 3s linear infinite;
+  }
+  @keyframes fall {
+    to {
+      transform: translateY(100vh) rotate(360deg);
+      opacity: 0;
+    }
+  }
+</style>
+</head>
+<body>
+  <h1>🖤💗 HAPPY BIRTHDAY STREELO 🥳💗🖤</h1>
+  
+  <div class="note">
+    Sooo hmm… I don’t even know where to start from, but well, let’s start from the start ig 😅 <br><br>
+    
+    Idr much but as far as I remember you were pretty twinkish with that pfp and all, and also pretty much nice + innocent type of boy… <br>
+    Now you’re not 😂 but anyways 🖤 <br><br>
+    
+    I thought you’d be one of the <i>namunas</i> like yk… the namunas of Atlantis? Yeah them 👀 <br>
+    But then idk when, we started getting a little bit close. <br>
+    And with all honesty I never wanted that 💀 <br>
+    I just wanted to be casual friends with you, like how I am with Xera or Meow for example… <br><br>
+    
+    I’ve told you before too but I really didn’t want new friends as I already had my friend circle. <br>
+    And after coming here you made your own friend circle with Goldie and Ghost and other people, so there was no chance of mixing groups too. <br>
+    But good thing Goldie is one of my favs and also Josi, so I was a little bit more comfortable with you cause of them 💗 <br><br>
+    
+    And so… YES we made that GC 🌟 probably one of the best decisions of life 🖤 <br>
+    With time we became good friends. <br>
+    And you’re probably one of the people — specifically male — who doesn’t make me uncomfortable in any way. <br>
+    I’m just so chill with you and I actually like that, cause I had a really bad image of the male species in my mind 😔 <br>
+    A few guys from Atlantis helped me change that. <br><br>
+    
+    I can’t even remember the early days clearly now cause it feels like we’ve always been like this. <br>
+    You’re like my older brother fr 🖤 who’s also a friend, and also my hater who bullies me a lot 😤 and vice versa… <br>
+    But yk I never got offended with your teasing cause you’ve always been considerate about it. <br>
+    As you know I’m pretty sensitive so I don’t usually put up with people crossing the line or that casual bullying… <br>
+    But yeah, that’s me. So it’s surprising that I don’t really mind your light-hearted bullying 😂 <br>
+    And that doesn’t mean you’re gonna bully me MORE 💗 <br><br>
+    
+    And as you can see I’m pretty bad at writing paragraphs too… <br>
+    I used to be so good at this once upon a time omg 💔💔 <br><br>
+    
+    However anyways, moving on… <br>
+    You’re a pretty nice guy and a really mature one — that’s very rare in men — so I appreciate that 🖤💗 <br><br>
+    
+    <h2>HAPPY BIRTHDAY STELLA <span class="heart">🥳🖤💗</span></h2>
+    Hope you have the most chaotic, loved, and cake-filled day ever!!
+  </div>
+
+<script>
+  // Pink confetti effect
+  for(let i=0; i<50; i++){
+    let confetti = document.createElement('div');
+    confetti.className = 'confetti';
+    confetti.style.left = Math.random()*100 + 'vw';
+    confetti.style.animationDelay = Math.random()*3 + 's';
+    confetti.style.background = Math.random() > 0.5 ? '#ff69b4' : '#ffb6e6';
+    document.body.appendChild(confetti);
+  }
+</script>
+</body>
+</html>
